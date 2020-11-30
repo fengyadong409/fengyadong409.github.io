@@ -7,8 +7,10 @@
 <head>
   <meta charset="utf-8" />
    
-  <meta name="keywords" content="博客" />
+  <meta name="keywords" content="博客、随笔、技术、摄影" />
    
+  <meta name="description" content="最美不过一场冬雪" />
+  
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   <title>
     标签 |  冬雪的个人博客
@@ -39,252 +41,25 @@
 
 </html>
 
+  <script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css"/>
+
 <body>
+
+  <script src="/live2d-widget/autoload.js"></script>
+  
   <div id="app">
     
       
     <main class="content on">
       <section class="outer">
-  <article
-  id="page-"
-  class="article article-type-page"
-  itemscope
-  itemprop="blogPost"
-  data-scroll-reveal
->
-  <div class="article-inner">
-    
-    <header class="article-header">
-       
-<h1 class="article-title sea-center" style="border-left:0" itemprop="name">
-  标签
-</h1>
- 
-
-    </header>
-       
-    <div class="article-entry" itemprop="articleBody">
-       
-   
-      <!-- reward -->
-      
-      <div id="reword-out">
-        <div id="reward-btn">
-          打赏
-        </div>
-      </div>
-      
-    </div>
-    
-
-    <!-- copyright -->
-    
-    <div class="declare">
-      <ul class="post-copyright">
-        <li>
-          <i class="ri-copyright-line"></i>
-          <strong>版权声明： </strong>
-          
-          本博客所有文章除特别声明外，著作权归作者所有。转载请注明出处！
-          
-        </li>
-      </ul>
-    </div>
-    
-    <footer class="article-footer">
-       
-<div class="share-btn">
-      <span class="share-sns share-outer">
-        <i class="ri-share-forward-line"></i>
-        分享
-      </span>
-      <div class="share-wrap">
-        <i class="arrow"></i>
-        <div class="share-icons">
-          
-          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
-            <i class="ri-weibo-fill"></i>
-          </a>
-          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
-            <i class="ri-wechat-fill"></i>
-          </a>
-          <a class="qq share-sns" href="javascript:;" data-type="qq">
-            <i class="ri-qq-fill"></i>
-          </a>
-          <a class="douban share-sns" href="javascript:;" data-type="douban">
-            <i class="ri-douban-line"></i>
-          </a>
-          <!-- <a class="qzone share-sns" href="javascript:;" data-type="qzone">
-            <i class="icon icon-qzone"></i>
-          </a> -->
-          
-          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
-            <i class="ri-facebook-circle-fill"></i>
-          </a>
-          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
-            <i class="ri-twitter-fill"></i>
-          </a>
-          <a class="google share-sns" href="javascript:;" data-type="google">
-            <i class="ri-google-fill"></i>
-          </a>
-        </div>
-      </div>
-</div>
-
-<div class="wx-share-modal">
-    <a class="modal-close" href="javascript:;"><i class="ri-close-circle-line"></i></a>
-    <p>扫一扫，分享到微信</p>
-    <div class="wx-qrcode">
-      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=http://westdong.cn/tags/" alt="微信分享二维码">
-    </div>
-</div>
-
-<div id="share-mask"></div>  
-    </footer>
-  </div>
-
-   
-   
-<!-- valine评论 -->
-<div id="vcomments-box">
-  <div id="vcomments"></div>
-</div>
-<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js"></script>
-<script>
-  new Valine({
-    el: "#vcomments",
-    app_id: "VNHQI2boxm0nzjUalzHcckzS-MdYXbMMI",
-    app_key: "gmBrqG7g3ChjOuQ6e2rof8zi",
-    path: window.location.pathname,
-    avatar: "monsterid",
-    placeholder: "给我的文章加点评论吧~",
-    recordIP: true,
-  });
-  const infoEle = document.querySelector("#vcomments .info");
-  if (infoEle && infoEle.childNodes && infoEle.childNodes.length > 0) {
-    infoEle.childNodes.forEach(function (item) {
-      item.parentNode.removeChild(item);
-    });
-  }
-</script>
-<style>
-  #vcomments-box {
-    padding: 5px 30px;
-  }
-
-  @media screen and (max-width: 800px) {
-    #vcomments-box {
-      padding: 5px 0px;
-    }
-  }
-
-  #vcomments-box #vcomments {
-    background-color: #fff;
-  }
-
-  .v .vlist .vcard .vh {
-    padding-right: 20px;
-  }
-
-  .v .vlist .vcard {
-    padding-left: 10px;
-  }
-</style>
-
- 
-    
-<!-- minivaline评论 -->
-<div id="mvcomments-box">
-  <div id="mvcomments"></div>
-</div>
-<script src="https://cdn.jsdelivr.net/npm/minivaline@2/dist/MiniValine.min.js"></script>
-<script>
-    new MiniValine({
-        el: '#mvcomments',
-        appId: 'VNHQI2boxm0nzjUalzHcckzS-MdYXbMMI',
-        appKey: 'gmBrqG7g3ChjOuQ6e2rof8zi',
-        mode: 'DesertsP',
-        placeholder: '给我的文章加点评论吧~',
-        pathname: window.location.pathname,
-        lang: 'zh-CN',
-        adminEmailMd5: '9306c15fa6db10392b9cdbbb0f4f8915',
-        tagMeta: ["管理员", "小伙伴", "访客"],
-        master: ["9306c15fa6db10392b9cdbbb0f4f8915"],
-        friends: ["946412234785159d3e7bac5e75204307"],
-        math: true,
-        md: true,
-        enableQQ: true,
-        NoRecordIP: false,
-        visitor: true,
-        maxNest: 10,
-        pageSize: 10,
-        serverURLs: '',
-        emoticonUrl: ["https://cdn.jsdelivr.net/npm/alus@latest", "https://cdn.jsdelivr.net/gh/MiniValine/qq@latest", "https://cdn.jsdelivr.net/gh/MiniValine/Bilibilis@latest", "https://cdn.jsdelivr.net/gh/MiniValine/tieba@latest", "https://cdn.jsdelivr.net/gh/MiniValine/twemoji@latest", "https://cdn.jsdelivr.net/gh/MiniValine/weibo@latest"],
-    });
-  const infoEle = document.querySelector('#mvcomments .info');
-  if (infoEle && infoEle.childNodes && infoEle.childNodes.length > 0) {
-      infoEle.childNodes.forEach(function (item) {
-          item.parentNode.removeChild(item);
-      });
-  }
-</script>
-<style>
-	#mvcomments-box {
-	padding: 5px 30px;
-	}
-
-	@media screen and (max-width: 800px) {
-	#mvcomments-box {
-	  padding: 5px 0px;
-	}
-	}
-
-	.v .vlist .vcard .vh {
-	padding-right: 20px;
-	}
-
-	.v .vlist .vcard {
-	padding-left: 10px;
-	}
-	
-	.darkmode .commentTrigger{
-		background-color: #403e3e !important;
-	  }
-	.darkmode .MiniValine .vpage .more{
-		background: #21232F
-	}
-	.darkmode img{
-		  filter: brightness(30%)
-	}
-	.darkmode .MiniValine .vlist .vcard .vcomment-body .text-wrapper .vcomment.expand:before{
-		background: linear-gradient(180deg, rgba(246,246,246,0), rgba(0,0,0,0.9))
-	}
-	.darkmode .MiniValine .vlist .vcard .vcomment-body .text-wrapper .vcomment.expand:after{
-		background: rgba(0,0,0,0.9)
-	}
-	.darkmode .MiniValine .vlist .vcard .vcomment-body .text-wrapper .vcomment pre{
-		background: #282c34
-		border: 1px solid #282c34
-	}
-	.darkmode .MiniValine .vinputs-area .textarea-wrapper textarea{
-		color: #000;
-	}
-	.darkmode .MiniValine .vinputs-area .auth-section .input-wrapper input{
-		color: #000;
-	}
-	.darkmode .MiniValine .info .col .count{
-		color: #000;
-	}
-	.darkmode .MiniValine .vinputs-area .vextra-area .vsmile-icons{
-		background: transparent;
-	}
-</style>
-
- 
-</article>
-
+  
+    <h1 class="page-type-title">标签</h1>
+    <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Poetry/" rel="tag">Poetry</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/aesthetic/" rel="tag">aesthetic</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/blog/" rel="tag">blog</a></li></ul>
+  
 </section>
+
+
       <footer class="footer">
   <div class="outer">
     <ul>
@@ -349,7 +124,7 @@
 <nav class="navbar">
   
   <div class="logo">
-    <a href="/"><img src="/images/ayer-side.svg" alt="冬雪的个人博客"></a>
+    <a href="/"><img src="/images/avatar.jpg" alt="冬雪的个人博客"></a>
   </div>
   
   <ul class="nav nav-main">
@@ -371,7 +146,7 @@
     </li>
     
     <li class="nav-item">
-      <a class="nav-item-link" href="/tags/%E6%97%85%E8%A1%8C/">旅行</a>
+      <a class="nav-item-link" target="_blank" rel="noopener" href="https://imgchr.com/f2271546491/albums">摄影</a>
     </li>
     
     <li class="nav-item">
@@ -392,10 +167,6 @@
         <i class="ri-search-line"></i>
       </a>
       
-      
-      <a class="nav-item-link" target="_blank" href="/atom.xml" title="RSS Feed">
-        <i class="ri-rss-line"></i>
-      </a>
       
     </li>
   </ul>
@@ -420,6 +191,11 @@
   <span class="close"><i class="ri-close-line"></i></span>
   <p class="reward-p"><i class="ri-cup-line"></i>请我喝杯咖啡吧~</p>
   <div class="reward-box">
+    
+    <div class="reward-item">
+      <img class="reward-img" src="/images/alipay.jpg">
+      <span class="reward-type">支付宝</span>
+    </div>
     
     
     <div class="reward-item">
@@ -655,6 +431,6 @@
 </style>
     
   </div>
-<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"model":{"jsonPath":"/live2dw/assets/z16.model.json"},"display":{"position":"left","width":150,"height":300},"mobile":{"show":true},"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
+</body>
 
 </html>
